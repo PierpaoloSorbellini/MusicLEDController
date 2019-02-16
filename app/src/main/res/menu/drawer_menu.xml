@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- of item on the navigation drawer -->
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/drawer_menu_home"
+            android:icon="@drawable/icon_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/drawer_menu_search"
+            android:icon="@drawable/icon_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/drawer_menu_musicplayer"
+            android:icon="@drawable/icon_musicplayer"
+            android:title="Music Player" />
+        <item
+            android:id="@+id/drawer_menu_manualcontroller"
+            android:icon="@drawable/icon_manualcontroller"
+            android:title="Manual Controller" />
+        <item
+            android:id="@+id/drawer_menu_bluetooth"
+            android:icon="@drawable/icon_bluetooth"
+            android:title="Bluetooth" />
+        <item
+            android:id="@+id/drawer_menu_settings"
+            android:icon="@drawable/icon_settings"
+            android:title="Settings" />
+    </group>
+
+</menu>
